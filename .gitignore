@@ -1,0 +1,12 @@
+*.suo
+*.user
+*.vspscc
+*.scc
+App_Data
+Tmp
+bin
+obj
+TestResults
+Logs
+packages
+StyleCop.Cache
