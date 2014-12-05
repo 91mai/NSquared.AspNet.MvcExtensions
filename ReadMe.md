@@ -1,4 +1,4 @@
-# NSquared.AspNet.Extensions 
+# NSquared.AspNet.Extensions ![](https://api.travis-ci.org/91mai/NSquared.AspNet.Extensions.png?branch=master)
 
 Provides Asp.Net Mvc and Asp.Net WebApi Extensions
 
