@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace NSquare.MvcExtensions.Sample
+namespace NSquared.MvcExtensions.Sample
 {
     public class RouteConfig
     {

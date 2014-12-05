@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BE315681-76B6-4E0D-9472-B3EA38C9E490}</ProjectGuid>
+    <ProjectGuid>{4AA74806-63D8-42A1-B590-14F04C5FC5C8}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NSquare.MvcExtensions.Sample</RootNamespace>
-    <AssemblyName>NSquare.MvcExtensions.Sample</AssemblyName>
+    <RootNamespace>NSquared.MvcExtensions.Sample</RootNamespace>
+    <AssemblyName>NSquared.MvcExtensions.Sample</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -167,9 +167,9 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcExtensions\NSquare.MvcExtensions.csproj">
+    <ProjectReference Include="..\MvcExtensions\NSquared.MvcExtensions.csproj">
       <Project>{c323c8c3-e8ad-45d6-bbdd-8d3bfc29b71a}</Project>
-      <Name>NSquare.MvcExtensions</Name>
+      <Name>NSquared.MvcExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
@@ -188,9 +188,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>8628</DevelopmentServerPort>
+          <DevelopmentServerPort>10007</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:8628/</IISUrl>
+          <IISUrl>http://localhost:10007/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

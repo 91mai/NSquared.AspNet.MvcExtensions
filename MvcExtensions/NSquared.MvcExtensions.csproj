@@ -7,8 +7,8 @@
     <ProjectGuid>{C323C8C3-E8AD-45D6-BBDD-8D3BFC29B71A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NSquare.MvcExtensions</RootNamespace>
-    <AssemblyName>NSquare.MvcExtensions</AssemblyName>
+    <RootNamespace>NSquared.MvcExtensions</RootNamespace>
+    <AssemblyName>NSquared.MvcExtensions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace NSquare.MvcExtensions.Sample.Models
+namespace NSquared.MvcExtensions.Sample.Models
 {
     public class TestData
     {

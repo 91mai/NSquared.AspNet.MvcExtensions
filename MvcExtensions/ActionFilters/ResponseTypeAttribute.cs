@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NSquare.MvcExtensions.ActionFilters
+namespace NSquared.MvcExtensions.ActionFilters
 {
     /// <summary>
     /// Use this to specify the entity type returned by an action when the declared return type

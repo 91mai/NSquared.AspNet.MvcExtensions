@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace NSquare.MvcExtensions.Sample
+namespace NSquared.MvcExtensions.Sample
 {
     public class BundleConfig
     {

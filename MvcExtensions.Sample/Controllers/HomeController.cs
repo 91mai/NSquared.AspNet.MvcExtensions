@@ -1,12 +1,12 @@
-﻿using NSquare.MvcExtensions.ActionFilters;
-using NSquare.MvcExtensions.Sample.Models;
+﻿using NSquared.MvcExtensions.ActionFilters;
+using NSquared.MvcExtensions.Sample.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace NSquare.MvcExtensions.Sample.Controllers
+namespace NSquared.MvcExtensions.Sample.Controllers
 {
     [EnableDummy]
     [EnableJsonSchema]

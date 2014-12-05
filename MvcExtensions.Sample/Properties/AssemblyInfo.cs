@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊會透過將設定 
 // 控制。變更這些屬性值可修改與組件關聯的
 // 資訊。
-[assembly: AssemblyTitle("NSquare.MvcExtensions.Sample")]
+[assembly: AssemblyTitle("NSquared.MvcExtensions.Sample")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NSquare.MvcExtensions.Sample")]
+[assembly: AssemblyProduct("NSquared.MvcExtensions.Sample")]
 [assembly: AssemblyCopyright("Copyright (C)  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("3004e1da-4d10-43dd-9647-34a59435c0f5")]
+[assembly: Guid("d29c850e-6e4c-4c06-9db2-ac325b1b2c72")]
 
 // 組件的版本資訊是由下列四項值構成:
 //

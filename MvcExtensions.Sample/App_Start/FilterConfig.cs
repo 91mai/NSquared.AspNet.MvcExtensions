@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace NSquare.MvcExtensions.Sample
+namespace NSquared.MvcExtensions.Sample
 {
     public class FilterConfig
     {

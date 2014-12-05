@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 
-namespace NSquare.MvcExtensions.ActionFilters
+namespace NSquared.MvcExtensions.ActionFilters
 {
     public class EnableDummyAttribute : ActionFilterAttribute
     {
