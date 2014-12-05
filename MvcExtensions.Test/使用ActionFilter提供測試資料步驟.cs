@@ -1,5 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NSquared.MvcExtensions.ActionFilters;
+﻿using NSquared.MvcExtensions.ActionFilters;
+using NUnit.Framework;
 using Rhino.Mocks;
 using System;
 using System.Collections.Specialized;
