@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EB5455
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSquared.MvcExtensions.Sample", "MvcExtensions.Sample\NSquared.MvcExtensions.Sample.csproj", "{4AA74806-63D8-42A1-B590-14F04C5FC5C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSquared.MvcExtensions.Test", "MvcExtensions.Test\NSquared.MvcExtensions.Test.csproj", "{58D44817-7140-4693-9952-5B7BED880698}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{4AA74806-63D8-42A1-B590-14F04C5FC5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AA74806-63D8-42A1-B590-14F04C5FC5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AA74806-63D8-42A1-B590-14F04C5FC5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D44817-7140-4693-9952-5B7BED880698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D44817-7140-4693-9952-5B7BED880698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D44817-7140-4693-9952-5B7BED880698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D44817-7140-4693-9952-5B7BED880698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,7 +18,7 @@ namespace NSquared.MvcExtensions.ActionFilters
 
         public EnableJsonSchemaAttribute()
         {
-            this.HeaderConstraintKeyword = "NSquare-Request-JsonSchema";
+            this.HeaderConstraintKeyword = "NSquared-Request-JsonSchema";
         }
 
         public override void OnActionExecuting(ActionExecutingContext filterContext)

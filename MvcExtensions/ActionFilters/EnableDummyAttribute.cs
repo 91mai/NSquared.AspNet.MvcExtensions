@@ -17,7 +17,7 @@ namespace NSquared.MvcExtensions.ActionFilters
 
         public EnableDummyAttribute()
         {
-            this.HeaderConstraintKeyword = "NSquare-Request-Dummy";
+            this.HeaderConstraintKeyword = "NSquared-Request-Dummy";
         }
 
         public override void OnActionExecuting(ActionExecutingContext filterContext)
@@ -42,7 +42,7 @@ namespace NSquared.MvcExtensions.ActionFilters
                 //// 判斷真實檔案路徑
                 if (filePath.Contains("~"))
                 {
-                    filePath = System.Web.Hosting.HostingEnvironment.MapPath(filePath);
+                    filePath = filterContext.HttpContext.Server.MapPath(filePath);
                 }
 
                 //// 檢查是否有Dummy Data
