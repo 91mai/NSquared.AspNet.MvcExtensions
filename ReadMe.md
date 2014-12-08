@@ -1,6 +1,35 @@
-# NSquared.AspNet.Extensions ![](https://api.travis-ci.org/91mai/NSquared.AspNet.Extensions.png?branch=master)
+# NSquared.AspNet.Extensions [![](https://api.travis-ci.org/91mai/NSquared.AspNet.Extensions.png?branch=master)](https://travis-ci.org/91mai/NSquared.AspNet.Extensions)
 
-Provides Asp.Net Mvc and Asp.Net WebApi Extensions.
+Provides Asp.Net Mvc and Asp.Net WebApi Extensions to easily add json schema provide or dummy data support.
+
+*  NSquared.MvcExtensions
+*  NSquared.WebApiExtensions
+
+## How to use?
+
+1. To install NSquared.MvcExtensions, run the following command in the Package Manager Console
+
+		Install-Package NSquared.MvcExtensions
+
+1. Add attribute to your Asp.Net Mvc Controller
+
+		[EnableJsonSchema]
+    	[EnableDummy]
+    	public class SampleController : Controller
+    	{
+			[ResponseType(typeof(myData))]
+			public ActionResult Get(){
+			}
+		}
+
+1. For dummy data, you should add data which you want to return by path **~/Dummy/ControllerName/ActionName.json**, and add header **NSquared-Request-Dummy=true** in your request
+
+		﹂Controllers
+		﹂Dummy
+			﹂Sample
+				﹂Get.json
+
+1. For json schema, specify responseType in your action first, and then just need add header **NSquared-Request-JsonSchema** in your request.
 
 ## LICENSE
 
