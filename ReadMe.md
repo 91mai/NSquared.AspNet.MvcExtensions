@@ -1,5 +1,7 @@
 # NSquared.AspNet.Extensions [![](https://api.travis-ci.org/91mai/NSquared.AspNet.Extensions.png?branch=master)](https://travis-ci.org/91mai/NSquared.AspNet.Extensions)
 
+**This is a prerelease version of NSquared.MvcExtensions.**
+
 Provides Asp.Net Mvc and Asp.Net WebApi Extensions to easily add json schema provide or dummy data support.
 
 *  NSquared.MvcExtensions
@@ -30,6 +32,10 @@ Provides Asp.Net Mvc and Asp.Net WebApi Extensions to easily add json schema pro
 				﹂Get.json
 
 1. For json schema, specify responseType in your action first, and then just need add header **NSquared-Request-JsonSchema** in your request.
+
+## Project Reference
+
+1. Nuget - https://www.nuget.org/packages/NSquared.MvcExtensions/
 
 ## LICENSE
 
