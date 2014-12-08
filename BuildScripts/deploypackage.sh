@@ -5,5 +5,5 @@ echo "VersionNumber: $VersionNumber"
 
 if [ "$TRAVIS_BRANCH" == "master" ]; then         
      mono --runtime=v4.0.30319 .nuget/NuGet.exe Pack NugetSpecs/NSquared.MvcExtensions.nuspec -NonInteractive -Version ${VersionNumber}
-     mono --runtime=v4.0.30319 .nuget/NuGet.exe Push NugetSpecs/NSquared.MvcExtensions.${VersionNumber}.nupkg $NUGET_APIKEY -NonInteractive     
+     mono --runtime=v4.0.30319 .nuget/NuGet.exe Push NSquared.MvcExtensions.${VersionNumber}.nupkg $NUGET_APIKEY -NonInteractive     
 fi
