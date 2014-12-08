@@ -1,14 +1,13 @@
 language: c
-
 install:
 - sudo add-apt-repository ppa:directhex/monoxide -y && sudo apt-get update
 - sudo apt-get install mono-devel mono-gmcs
 - mozroots --import --sync
-
 script:
 - xbuild NSquared.AspNet.Extensions.sln
-- bash BuildScripts/unittest.sh  
-
+- bash BuildScripts/unittest.sh
+- bash BuildScripts/deploypackage.sh
 env:
-  global:
+  global:  
   - EnableNuGetPackageRestore=true
+  - secure: NPuBNc3oSuWmozmzX+4NIrorex7BIGzTvOIVHalW+x9lUcRYA1+gofFEPPTtUAVpER68TPRa5ItBScHpnZQbYXm5Blf3dLTVudikS6uf6N35yb32tu4flf/rY2Eqq7VqTjhUYluq8yshtIbMrZR8cUpXnTrBRBymOXLuOP5NMo8=

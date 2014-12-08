@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>NSquared.MvcExtensions</id>
+        <version>1.0.0</version>
+        <title>NSquared.MvcExtensions</title>
+        <authors>NSquared</authors>
+        <projectUrl>https://github.com/91mai/NSquared.AspNet.Extensions</projectUrl>
+        <iconUrl>https://avatars0.githubusercontent.com/u/10022788?v=3&amp;s=200</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This is a Asp.Net Extension for Asp.Net Mvc or Asp.Net WebApi. For easily extend by Action Filter or otherwise.</description>
+        <language>zh-TW</language>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Microsoft.AspNet.Mvc" version="4.0.40804.0" />
+                <dependency id="Newtonsoft.Json" version="5.0.8" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\MvcExtensions\bin\Debug\NSquared.MvcExtensions.dll" target="lib\net45\NSquared.MvcExtensions.dll" />
+    </files>
+</package>
