@@ -4,7 +4,7 @@ install:
 - sudo apt-get install mono-devel mono-gmcs
 - mozroots --import --sync
 script:
-- xbuild NSquared.AspNet.Extensions.sln
+- xbuild NSquared.AspNet.MvcExtensions.sln
 - bash BuildScripts/unittest.sh
 - bash BuildScripts/deploypackage.sh
 env:
