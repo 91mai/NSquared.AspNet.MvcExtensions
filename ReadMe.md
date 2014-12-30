@@ -1,4 +1,4 @@
-# NSquared.AspNet.Extensions [![](https://api.travis-ci.org/91mai/NSquared.AspNet.Extensions.png?branch=master)](https://travis-ci.org/91mai/NSquared.AspNet.Extensions)
+# NSquared.AspNet.MvcExtensions [![](https://api.travis-ci.org/91mai/NSquared.AspNet.MvcExtensions.png?branch=master)](https://travis-ci.org/91mai/NSquared.AspNet.Extensions)
 
 **This is a prerelease version of NSquared.MvcExtensions.**
 
