@@ -1,5 +1,5 @@
 #!/bin/bash
-VersionNumber="0.0.${TRAVIS_BUILD_NUMBER}-alpha"
+VersionNumber="0.0.${TRAVIS_BUILD_NUMBER}"
 
 echo "VersionNumber: $VersionNumber"
 

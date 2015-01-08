@@ -1,7 +1,5 @@
 # NSquared.AspNet.MvcExtensions [![](https://api.travis-ci.org/91mai/NSquared.AspNet.MvcExtensions.png?branch=master)](https://travis-ci.org/91mai/NSquared.AspNet.Extensions)
 
-**This is a prerelease version of NSquared.MvcExtensions.**
-
 Provides Asp.Net Mvc and Asp.Net WebApi Extensions to easily add json schema provide or dummy data support.
 
 *  NSquared.MvcExtensions
